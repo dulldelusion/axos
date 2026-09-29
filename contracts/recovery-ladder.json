@@ -1,0 +1,32 @@
+{
+  "provenance": {
+    "source": "frozen AXOS source in src/axos/",
+    "release_id": "551d559cf3489148fe8966b56376dfab6c5b909278685bd623eed0e7cef4c192",
+    "generated_by": "tools/extract_contracts.py",
+    "regenerate": "python3 tools/extract_contracts.py"
+  },
+  "description": "Canonical five-rung recovery ladder (contract section E.1), the single ladder shared by R8 (records rung context) and R9 (owns ladder policy). From CANONICAL_LADDER in src/axos/exec/policy.py.",
+  "canonical_ladder": {
+    "1": "Retry with backoff",
+    "2": "Restart worker",
+    "3": "Replace / reassign",
+    "4": "Widen scope",
+    "5": "Replan / pause"
+  },
+  "terminal_states": [
+    "BLOCKED_CONTRADICTORY",
+    "BLOCKED_STATE_UNAVAILABLE",
+    "BUDGET_EXHAUSTED",
+    "R5_TERMINAL",
+    "RECOVERY_COMPLETE",
+    "SUPERSEDED"
+  ],
+  "terminal_state_constants": {
+    "T_RECOVERY_COMPLETE": "RECOVERY_COMPLETE",
+    "T_BUDGET_EXHAUSTED": "BUDGET_EXHAUSTED",
+    "T_R5_TERMINAL": "R5_TERMINAL",
+    "T_BLOCKED_CONTRADICTORY": "BLOCKED_CONTRADICTORY",
+    "T_BLOCKED_STATE_UNAVAILABLE": "BLOCKED_STATE_UNAVAILABLE",
+    "T_SUPERSEDED": "SUPERSEDED"
+  }
+}

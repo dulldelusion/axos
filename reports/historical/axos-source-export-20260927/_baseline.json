@@ -1,0 +1,932 @@
+{
+ "export_timestamp_utc": "2026-09-27T19:47:06.825780+00:00",
+ "file_count": 154,
+ "directory_count": 12,
+ "total_bytes": 7797429,
+ "files": [
+  {
+   "path": "axos/.pytest_cache/.gitignore",
+   "size_bytes": 37,
+   "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+   "mtime_utc": "2026-09-23T09:34:07.016684+00:00"
+  },
+  {
+   "path": "axos/.pytest_cache/CACHEDIR.TAG",
+   "size_bytes": 191,
+   "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+   "mtime_utc": "2026-09-23T09:34:07.016751+00:00"
+  },
+  {
+   "path": "axos/.pytest_cache/README.md",
+   "size_bytes": 302,
+   "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+   "mtime_utc": "2026-09-23T09:34:07.015669+00:00"
+  },
+  {
+   "path": "axos/.pytest_cache/v/cache/lastfailed",
+   "size_bytes": 851,
+   "sha256": "ba81d194d322fe7107bce23c6adc8877315cf9705fb28642b04be0910570e981",
+   "mtime_utc": "2026-09-23T23:04:02.400126+00:00"
+  },
+  {
+   "path": "axos/.pytest_cache/v/cache/nodeids",
+   "size_bytes": 78219,
+   "sha256": "1c0e780f7cb96cc7f74aa2802b51a33cb49540b366d65dcd8e6de2050a6c3711",
+   "mtime_utc": "2026-09-23T23:22:31.629695+00:00"
+  },
+  {
+   "path": "axos/AUDIT-REPORT.md",
+   "size_bytes": 14934,
+   "sha256": "ec3b1256b7be117b20830a5b0bf58734b4f1f25b9568620c9243e5ff06fc7866",
+   "mtime_utc": "2026-09-23T06:33:38.408736+00:00"
+  },
+  {
+   "path": "axos/PHASE-1C-FINAL-STATUS.md",
+   "size_bytes": 11567,
+   "sha256": "d70b718c2d64cdf8d61b1cd100750e0b40b3b9602ea78c48c4ec59e974f0bd59",
+   "mtime_utc": "2026-09-24T09:07:07.088411+00:00"
+  },
+  {
+   "path": "axos/PHASE1A-REPORT.md",
+   "size_bytes": 5163,
+   "sha256": "b188cfd4a200f2618a6e703f0d2529e54a088fa674d3a6e1c90ac60fe6e8f307",
+   "mtime_utc": "2026-09-23T06:22:22.410707+00:00"
+  },
+  {
+   "path": "axos/R14-CONTRACT-AMENDMENT-PROPOSAL.md",
+   "size_bytes": 5359,
+   "sha256": "17a73e567609f77fe68ef67c420895e1bfcfcfd60a401bdaba1ff3d166e63ac7",
+   "mtime_utc": "2026-09-24T08:43:58.124417+00:00"
+  },
+  {
+   "path": "axos/R14-EVIDENCE.md",
+   "size_bytes": 11866,
+   "sha256": "6448fabd99d628f292228cd7e09cbef1e4f2f3df2e08bafe323ac1e988a0b68a",
+   "mtime_utc": "2026-09-24T06:54:28.240443+00:00"
+  },
+  {
+   "path": "axos/R14-EXTERNAL-VALIDATION.json",
+   "size_bytes": 1096,
+   "sha256": "88a0acbde6cbb7dd1d9771aceab293f766977954ecef540b38d13cd325806c97",
+   "mtime_utc": "2026-09-24T07:20:55.268436+00:00"
+  },
+  {
+   "path": "axos/R14-EXTERNAL-VALIDATION.md",
+   "size_bytes": 11442,
+   "sha256": "8b354bd17271df4ef0a39053695bd7752cc6764e5cb7266f5aaaceb21fa0d5f3",
+   "mtime_utc": "2026-09-24T07:20:53.749436+00:00"
+  },
+  {
+   "path": "axos/R14-PLAN.md",
+   "size_bytes": 7691,
+   "sha256": "3d20ca6cbcf17540b1a017c503152de230fa8d84b5b036a50f8a09a5fb691f15",
+   "mtime_utc": "2026-09-23T20:57:22.410023+00:00"
+  },
+  {
+   "path": "axos/README.md",
+   "size_bytes": 3770,
+   "sha256": "7cba30f08853358af6bec870ab923e8a446b41f71a5eda46ad731e4a18923b3e",
+   "mtime_utc": "2026-09-23T06:38:52.191749+00:00"
+  },
+  {
+   "path": "axos/audit/01_write_path.py",
+   "size_bytes": 7505,
+   "sha256": "c6fbaaea94f3fe49c97bf4782f8daff7e0d053ab807e4c2b7b50a06525b0174d",
+   "mtime_utc": "2026-09-23T06:38:47.094748+00:00"
+  },
+  {
+   "path": "axos/audit/02_transitions.py",
+   "size_bytes": 11025,
+   "sha256": "6b8e6e4306df1e235b70be5bd4acd671f967d875d881628d19228bbca1ccb6dc",
+   "mtime_utc": "2026-09-23T10:21:18.570413+00:00"
+  },
+  {
+   "path": "axos/audit/03_leases.py",
+   "size_bytes": 8766,
+   "sha256": "8da5365e9a0d374b2d11a265043b2e2993c3c41a17bf6767e884fc5c655570ae",
+   "mtime_utc": "2026-09-23T10:21:21.167349+00:00"
+  },
+  {
+   "path": "axos/audit/04_i17_i18.py",
+   "size_bytes": 8922,
+   "sha256": "461cdf2164854a39860cf35597d160df1758cfe04667ba6569b52f572d090276",
+   "mtime_utc": "2026-09-23T06:38:08.108747+00:00"
+  },
+  {
+   "path": "axos/audit/05_ledger.py",
+   "size_bytes": 5554,
+   "sha256": "da2ad1622881bbc5eca8790b0818e17a2acb76361fd729f4bab1e4a05713d9d1",
+   "mtime_utc": "2026-09-23T06:32:18.301732+00:00"
+  },
+  {
+   "path": "axos/audit/06_crash_backup_migration.py",
+   "size_bytes": 8572,
+   "sha256": "4f2dae9367873f9da825474363bca7021a0d02c88a0d1af435abe03423913b17",
+   "mtime_utc": "2026-09-23T06:56:06.569793+00:00"
+  },
+  {
+   "path": "axos/audit/07_race.py",
+   "size_bytes": 1830,
+   "sha256": "9c3e408346a6d28dcb88f6b168a20082ced890ef9dc6a322667a8bcf7758848e",
+   "mtime_utc": "2026-09-23T06:38:28.816748+00:00"
+  },
+  {
+   "path": "axos/audit/08_retest.py",
+   "size_bytes": 6792,
+   "sha256": "5905fea5810ebf2d242c2cde32dc4cb209912a2141d05b5cc3b99aadd58e3629",
+   "mtime_utc": "2026-09-23T06:38:39.574748+00:00"
+  },
+  {
+   "path": "axos/audit/09_authority_audit.py",
+   "size_bytes": 119213,
+   "sha256": "af9c3aca6a4328372f1bd93982d297aa56aa985e94a253deab09ae245c6d3834",
+   "mtime_utc": "2026-09-23T21:40:27.198123+00:00"
+  },
+  {
+   "path": "axos/audit/__pycache__/09_authority_audit.cpython-312.pyc",
+   "size_bytes": 131032,
+   "sha256": "6ef449a3d6138cb407c37b4952e40713f635c05daed84bf5d7c5b62a9bd42a68",
+   "mtime_utc": "2026-09-23T21:20:59.625651+00:00"
+  },
+  {
+   "path": "axos/audit/_killpoints.py",
+   "size_bytes": 1842,
+   "sha256": "1b16e4dc6393e0b6497feff65330b13737166bd858be04adc97f651cec6cb965",
+   "mtime_utc": "2026-09-23T23:22:35.944126+00:00"
+  },
+  {
+   "path": "axos/audit/_migkill.py",
+   "size_bytes": 522,
+   "sha256": "f16ee6df3d696020292ea510a9533b7f73f17ae4a829a124c9c94907b8f472b1",
+   "mtime_utc": "2026-09-23T23:22:37.332409+00:00"
+  },
+  {
+   "path": "axos/audit/stray_process_audit.py",
+   "size_bytes": 1675,
+   "sha256": "9ec28bbce78dd71e383b5a0d8be3c99b439e7eeb3771c22ca85e9ce0fce8dd48",
+   "mtime_utc": "2026-09-23T22:28:08.506234+00:00"
+  },
+  {
+   "path": "axos/exec/__init__.py",
+   "size_bytes": 86,
+   "sha256": "be5f68abd149694100fbead609427af5b49408e2a89ba8e819f597c908720344",
+   "mtime_utc": "2026-09-23T06:45:55.448767+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/__init__.cpython-312.pyc",
+   "size_bytes": 237,
+   "sha256": "dc499342c14489f3e808850565f290932cecce67af8d14b52837989b821b6b4e",
+   "mtime_utc": "2026-09-23T06:47:05.813957+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/boot.cpython-312.pyc",
+   "size_bytes": 30956,
+   "sha256": "3c7b880420d05837e5bc874c67d451d8caedd85902598d5ca05d8666a7a8110c",
+   "mtime_utc": "2026-09-23T10:39:04.250316+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/finalizer.cpython-312.pyc",
+   "size_bytes": 14517,
+   "sha256": "0e1e3eb18c99514a7039208c46a5ee67c923a96a4b02245089b23db205617496",
+   "mtime_utc": "2026-09-23T20:00:53.854693+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/identity.cpython-312.pyc",
+   "size_bytes": 2948,
+   "sha256": "460e572766835cae7ab4fb57b472e25cf4eb01db14c35f319a28d8ffffefab1d",
+   "mtime_utc": "2026-09-23T06:47:05.850877+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/policy.cpython-312.pyc",
+   "size_bytes": 52705,
+   "sha256": "433af541b34283029bf406043644252672edbda20b20eae5325a209a375728a7",
+   "mtime_utc": "2026-09-23T23:21:44.584376+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/reconciler.cpython-312.pyc",
+   "size_bytes": 27404,
+   "sha256": "d971a1108d17de2fd8e0de4d6a3425b3de63dd5bab5789ccd3208a934ac5d506",
+   "mtime_utc": "2026-09-23T18:05:34.414663+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/recovery.cpython-312.pyc",
+   "size_bytes": 59498,
+   "sha256": "59815ed06af4a5f01897f8cc615ff23b1e1ff3046747aad4140ba5364251002e",
+   "mtime_utc": "2026-09-23T14:55:31.007468+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/resilience.cpython-312.pyc",
+   "size_bytes": 38550,
+   "sha256": "c0b32674f738c3b04aa89e9194fb25ad159d0c41b827fed0e55257c55fcec5cb",
+   "mtime_utc": "2026-09-23T19:08:56.722670+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/scheduler.cpython-312.pyc",
+   "size_bytes": 23406,
+   "sha256": "86d50f3fb7d441a7bbccbeb63788207f936f44eab343c3baaa85a253ee2ab475",
+   "mtime_utc": "2026-09-23T19:11:43.633777+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/supervisor.cpython-312.pyc",
+   "size_bytes": 62695,
+   "sha256": "5e08f3671068ee15adcc98dba651cf21c4da40e4590bccfd538c7a8575490583",
+   "mtime_utc": "2026-09-23T16:45:40.083035+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/synthetic.cpython-312.pyc",
+   "size_bytes": 20358,
+   "sha256": "6a54e8a491f9c8a1095ba690cf202bd81d327dbd439ab9e13ae3857149ce067f",
+   "mtime_utc": "2026-09-23T22:23:23.610337+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/watchdog.cpython-312.pyc",
+   "size_bytes": 24689,
+   "sha256": "bea2f81811d5ee7caca1a56015e4189de9550b37676d95336591759cb50f0d57",
+   "mtime_utc": "2026-09-23T21:12:34.947770+00:00"
+  },
+  {
+   "path": "axos/exec/__pycache__/worker.cpython-312.pyc",
+   "size_bytes": 18486,
+   "sha256": "cd8ec9bc55913e421dc4d15eb6b80c16889c6ed944093aee23e84417a38c9394",
+   "mtime_utc": "2026-09-23T22:22:27.816929+00:00"
+  },
+  {
+   "path": "axos/exec/boot.py",
+   "size_bytes": 31335,
+   "sha256": "7dce251f1a58779257a886e49a55a0ccf5db417b55269137bebaf9df91e7ed9c",
+   "mtime_utc": "2026-09-23T10:39:02.130639+00:00"
+  },
+  {
+   "path": "axos/exec/finalizer.py",
+   "size_bytes": 13101,
+   "sha256": "f744eaf52a2f55cd9d902c62098cbed87ddb4c328dcd318108baa468a9c89caa",
+   "mtime_utc": "2026-09-23T19:59:48.953889+00:00"
+  },
+  {
+   "path": "axos/exec/identity.py",
+   "size_bytes": 1784,
+   "sha256": "065a65d7533d27f764006fc60019569269e4d0cad5d850afc1ba439b4e933d4d",
+   "mtime_utc": "2026-09-23T06:45:24.569176+00:00"
+  },
+  {
+   "path": "axos/exec/policy.py",
+   "size_bytes": 51331,
+   "sha256": "a359f1df5aba2ced1dfae6b64b0aa31de5a2011b883072afebc3c62508a712f2",
+   "mtime_utc": "2026-09-23T23:21:36.398393+00:00"
+  },
+  {
+   "path": "axos/exec/reconciler.py",
+   "size_bytes": 28467,
+   "sha256": "376e9d8da2d3a5622dc94bbcf1a6d7b432233215bc29a86540534845019095cb",
+   "mtime_utc": "2026-09-23T18:05:32.194691+00:00"
+  },
+  {
+   "path": "axos/exec/recovery.py",
+   "size_bytes": 60022,
+   "sha256": "e3164fa52c03f2cefed81d998abb7eba1b1cb06abcceb31e1f482c9af04364d1",
+   "mtime_utc": "2026-09-23T14:50:12.549610+00:00"
+  },
+  {
+   "path": "axos/exec/resilience.py",
+   "size_bytes": 36603,
+   "sha256": "ac51908ce927b7f6d0b15610668a98d33036419dd7dad5d1747e321cf8716766",
+   "mtime_utc": "2026-09-23T19:08:53.488770+00:00"
+  },
+  {
+   "path": "axos/exec/scheduler.py",
+   "size_bytes": 23313,
+   "sha256": "373b473991dbde10a74d207ace15fe7e3d907dd409b5019f76ba15e556036f28",
+   "mtime_utc": "2026-09-23T19:11:42.235777+00:00"
+  },
+  {
+   "path": "axos/exec/supervisor.py",
+   "size_bytes": 59498,
+   "sha256": "556c9500ee289a2cf85a6bbcb1a34d67c19aeb8cd89310999fd6f702b8a2e1de",
+   "mtime_utc": "2026-09-23T16:44:28.182588+00:00"
+  },
+  {
+   "path": "axos/exec/synthetic.py",
+   "size_bytes": 15355,
+   "sha256": "1d146d72243e181b28a3a7b6114aa26b5e8efe5ff93df8f380c78648e165f5a6",
+   "mtime_utc": "2026-09-23T22:22:40.139221+00:00"
+  },
+  {
+   "path": "axos/exec/watchdog.py",
+   "size_bytes": 24864,
+   "sha256": "e0a6116a53966f63840b9ff655f86fc5bb7740392cc7f7098130ca8953b92870",
+   "mtime_utc": "2026-09-23T21:12:32.140058+00:00"
+  },
+  {
+   "path": "axos/exec/worker.py",
+   "size_bytes": 16874,
+   "sha256": "b69b2c9b21116e43c88fec059fc90a5c582f91b672ed1ff19e85b23ccfaa8b84",
+   "mtime_utc": "2026-09-23T22:21:10.290218+00:00"
+  },
+  {
+   "path": "axos/release_manifest.json",
+   "size_bytes": 6344,
+   "sha256": "2fa26d3ef74ee603d69b9d64ca54b7eb7c84f092ee0c283b3138b2672ad911eb",
+   "mtime_utc": "2026-09-23T23:21:36.421558+00:00"
+  },
+  {
+   "path": "axos/store.db",
+   "size_bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "mtime_utc": "2026-09-24T17:30:36.886397+00:00"
+  },
+  {
+   "path": "axos/store/__init__.py",
+   "size_bytes": 1000,
+   "sha256": "11bfed10907bf964dd5af22183c7e3aca1ae21ddb9522954fe5f1459fd371fa6",
+   "mtime_utc": "2026-09-23T19:56:19.997880+00:00"
+  },
+  {
+   "path": "axos/store/__pycache__/__init__.cpython-312.pyc",
+   "size_bytes": 931,
+   "sha256": "6e54a15c3181200edba211cd18f7c0ac38192d439afc28cff677350b97089d57",
+   "mtime_utc": "2026-09-23T20:00:53.847764+00:00"
+  },
+  {
+   "path": "axos/store/__pycache__/db.cpython-312.pyc",
+   "size_bytes": 17113,
+   "sha256": "954833a51a076348a9876079cf13bc761e9585a7fa9326d1ac1d2d44835d6fa4",
+   "mtime_utc": "2026-09-23T20:00:53.850121+00:00"
+  },
+  {
+   "path": "axos/store/__pycache__/gate.cpython-312.pyc",
+   "size_bytes": 268380,
+   "sha256": "0f70b8dd89edc8013232970cfe0567371b45e9ebf9469ea44b29828513429ca3",
+   "mtime_utc": "2026-09-23T22:22:19.502240+00:00"
+  },
+  {
+   "path": "axos/store/__pycache__/migrations.cpython-312.pyc",
+   "size_bytes": 18904,
+   "sha256": "37415ec34f42b331e07c6317db3ebc6b73c157feddf1ce323c4d60c9831f339c",
+   "mtime_utc": "2026-09-23T22:21:31.900243+00:00"
+  },
+  {
+   "path": "axos/store/__pycache__/transitions.cpython-312.pyc",
+   "size_bytes": 2517,
+   "sha256": "4e37bb5494f5b83af6c80f3e40759774db6d5544b9b003bd3183c14a6ec622e3",
+   "mtime_utc": "2026-09-23T17:48:26.737957+00:00"
+  },
+  {
+   "path": "axos/store/db.py",
+   "size_bytes": 13145,
+   "sha256": "85204951954816bb4c60d281d20d2a09151d558b8200964949b8893c29c9d6dc",
+   "mtime_utc": "2026-09-23T19:56:18.408880+00:00"
+  },
+  {
+   "path": "axos/store/gate.py",
+   "size_bytes": 292659,
+   "sha256": "7d11086427d1a0e89fccd0dff438e1eba1ec083060a7732a0bd296bcbac11123",
+   "mtime_utc": "2026-09-23T22:22:13.933220+00:00"
+  },
+  {
+   "path": "axos/store/migrations.py",
+   "size_bytes": 28723,
+   "sha256": "d386ab9e2599a7e293d56d86b6e77c4e26d80c1aa77392fb6cb1857f996e7bb5",
+   "mtime_utc": "2026-09-23T22:20:17.481216+00:00"
+  },
+  {
+   "path": "axos/store/store.db",
+   "size_bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "mtime_utc": "2026-09-24T18:07:32.424302+00:00"
+  },
+  {
+   "path": "axos/store/transitions.py",
+   "size_bytes": 3319,
+   "sha256": "312a5c4e511d787b25b8ec8a35f14e65564f0b0b60cdff643e43d0ab184d072a",
+   "mtime_utc": "2026-09-23T17:46:27.056578+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/_crasher.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3125,
+   "sha256": "d418ea7a84f2af02a8a06fe77ac53ce6ba0969862f7cdb77dbf289663c10c148",
+   "mtime_utc": "2026-09-23T10:26:40.505645+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/_supdrv.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 5386,
+   "sha256": "218080898f26f08602add860fcabf4a60d55672994d47155594821d3e15896e0",
+   "mtime_utc": "2026-09-23T10:26:40.805025+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/_supdrv.cpython-312.pyc",
+   "size_bytes": 7748,
+   "sha256": "e1c2f97cf94e3aad4e71fc42bf4d6f6cc138ba32f0cbd1671d8abe1cf88556b0",
+   "mtime_utc": "2026-09-23T21:38:17.217395+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/r5_helpers.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 4017,
+   "sha256": "e6ca015186d52f046ad8064ba2e21efb7cefd7620e1719e87040df8ce8cc14bc",
+   "mtime_utc": "2026-09-23T10:26:41.083965+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/r5_helpers.cpython-312.pyc",
+   "size_bytes": 3913,
+   "sha256": "43b0166c90423efa87a90dab75a96cd7cf17c33df5be7a3d1219bb8d865bec87",
+   "mtime_utc": "2026-09-23T22:23:23.511439+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_artifacts_r5.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 64960,
+   "sha256": "2a54c4de738a8805266e453b6aa74c199472a808100ea9f03ae2c8d8d0357b13",
+   "mtime_utc": "2026-09-23T22:22:19.417220+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_artifacts_r5.cpython-312.pyc",
+   "size_bytes": 63909,
+   "sha256": "d8450d06aa0bc942844843fa390977d86a97ef6a04a70f017a96f5eb0fa0a857",
+   "mtime_utc": "2026-09-23T11:58:57.067626+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_boot_r6.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 88526,
+   "sha256": "270f001e32de617294e5945ecf7a4635053a10f4fdeed6240ca83c45142a5c4c",
+   "mtime_utc": "2026-09-23T10:57:29.297889+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_boot_r6.cpython-312.pyc",
+   "size_bytes": 88413,
+   "sha256": "3ca04bfc24da8b39bb182c80dc00b8ebd471dde3463f9032d6368f1dbaead844",
+   "mtime_utc": "2026-09-23T14:58:19.220550+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3172,
+   "sha256": "445d42c1b7be42dab0ba25356f0454c3a83ea21a90268ee90d3bd011c1cb7b29",
+   "mtime_utc": "2026-09-23T21:51:24.654149+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26b.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3049,
+   "sha256": "3367c302278ce93acd337ef2345db50bcfa4bcb2d0fa7afaee33da162534bb1e",
+   "mtime_utc": "2026-09-23T21:54:16.576007+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26c.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 4229,
+   "sha256": "87bb2d8017784269448dc080139c024b928c56e5c688e4b95de70336b22f102f",
+   "mtime_utc": "2026-09-23T21:58:19.384194+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26d.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3631,
+   "sha256": "9eff915b63caeba7ec9da6c7f183b8a7444696db96f15fa170e5b59c42a247bb",
+   "mtime_utc": "2026-09-23T21:58:32.753103+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26e.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3181,
+   "sha256": "7c2da085b673fe7ad8819fd1655ce71b2dc566b7803e9c95257a1ddad0eb5cb1",
+   "mtime_utc": "2026-09-23T21:58:38.729948+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26f.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 2962,
+   "sha256": "26b67f116f223734b8b866ac57b144296d99b1734176bfdb839b6ebbe67a72da",
+   "mtime_utc": "2026-09-23T21:58:54.590744+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26g.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3577,
+   "sha256": "f87dbbe7a30dfdf5f003496d65117810542723b2a7e975c9be17d534f5bfe998",
+   "mtime_utc": "2026-09-23T21:59:09.027639+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26h.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3834,
+   "sha256": "8c0801ad0a9f9e198b66261671c5a906f5131f2770fa262cc8681c20328030a2",
+   "mtime_utc": "2026-09-23T21:59:13.187648+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26i.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3696,
+   "sha256": "9d4d1ebe9f83b270afd7d5a874f18e18efd080be661e07311b08183998bb2886",
+   "mtime_utc": "2026-09-23T21:59:20.471884+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26j.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3451,
+   "sha256": "12b8e3b78934c62184fba66369631b2909d2957b5a0339ea7ccf8ba34804f2ee",
+   "mtime_utc": "2026-09-23T21:59:25.452782+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg26k.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 4000,
+   "sha256": "e4c371c2bfe7efeec4ee7c179bab94ad2708265ccc948e7baf6037684edfd012",
+   "mtime_utc": "2026-09-23T22:00:18.571610+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg55.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 2407,
+   "sha256": "0f7d728780add7c5f16283115a16c7414662d597c4de87693606d07e86603152",
+   "mtime_utc": "2026-09-23T22:03:43.068189+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg55b.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 2819,
+   "sha256": "b246d034d11888f215ab762f1d42f81aae3e67ce6a298e57b3742697cec9e2f4",
+   "mtime_utc": "2026-09-23T22:03:50.186131+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg55c.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 2768,
+   "sha256": "18e7f633d240dddc9cec46fd90db8d9e3eb061f78e402d70ef7832e1baf36c1a",
+   "mtime_utc": "2026-09-23T22:03:54.898178+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg56.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 1684,
+   "sha256": "e138fdf53d49c6dd8ee67be4141b648742117fd34580663af6303ad90e0ddd24",
+   "mtime_utc": "2026-09-23T22:04:20.001576+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg63.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 2906,
+   "sha256": "7b1c557dadbed781834ef72ecac2e4b77830fe83eca0daad921a069d840147f4",
+   "mtime_utc": "2026-09-23T22:01:10.822628+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg76.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 2341,
+   "sha256": "5a6ced9c1453d9d4226b4c49f7a761ba3266d0c853a5edff37276d7eb4080e0b",
+   "mtime_utc": "2026-09-23T22:06:13.092913+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg80.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 1479,
+   "sha256": "aa86f01f6fb6c803f6cff43ebd6348e2b54ce1d4f85b7189af72b4305ebd373f",
+   "mtime_utc": "2026-09-23T22:07:58.894930+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg83.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3495,
+   "sha256": "61eee003f135d4c878bda0df226ad801f6a5fea3cf73a0307dcb48f5c365d984",
+   "mtime_utc": "2026-09-23T21:56:45.952993+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_dbg83c.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 3375,
+   "sha256": "82420c9206528c3d0606baa0a95821360497873714955922b0ff658caa6eccae",
+   "mtime_utc": "2026-09-23T21:56:52.799537+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_exec.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 79845,
+   "sha256": "686365dd733e08e0748c6d423798260867c71a9a64a28d5311faa90c55a4a109",
+   "mtime_utc": "2026-09-23T10:17:04.641062+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_exec.cpython-312.pyc",
+   "size_bytes": 79732,
+   "sha256": "a6a1ed22d07e54bb15a777a21e1a39df605853009e7f9b869ee3a4010202561b",
+   "mtime_utc": "2026-09-23T14:59:59.671804+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_expiry_r4.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 52552,
+   "sha256": "dfa816ea1e7b9047f0050a0766f1c92fc99763e474287ada8e2f312f7c7c762f",
+   "mtime_utc": "2026-09-23T09:58:56.146971+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_expiry_r4.cpython-312.pyc",
+   "size_bytes": 50023,
+   "sha256": "f1db48e29bd49730156b277686f16f076a9a7e51f892ebeb52997fb81933f546",
+   "mtime_utc": "2026-09-23T14:59:20.256771+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_fence_enforce.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 44664,
+   "sha256": "f34112e3847237d6e869f0b801c89c1560d7e7093686191435bdf7b7703a219b",
+   "mtime_utc": "2026-09-23T10:40:07.230908+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_fence_enforce.cpython-312.pyc",
+   "size_bytes": 44551,
+   "sha256": "1e81b0fe5260fc14b2a691bc8b1c62008253c8d86a763ddbc0026731163260a3",
+   "mtime_utc": "2026-09-23T14:59:35.166230+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_final_hardening_r14.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 459499,
+   "sha256": "4b5af60b2c85d92bbb079326c78eb82491a0a96765521c545de3aaa896ed5581",
+   "mtime_utc": "2026-09-23T22:31:35.402242+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_final_hardening_r14.cpython-312.pyc",
+   "size_bytes": 458966,
+   "sha256": "09070e74b56551a071191f6275d5b10a6d29be0d90bc298a78cce8ffee21e47c",
+   "mtime_utc": "2026-09-23T22:31:35.645242+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_finalization_r13.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 189870,
+   "sha256": "f2f84d1cb97957dc48e4dc794bdf5d675fb4a1769fe8c30c8a0c90d4ab148161",
+   "mtime_utc": "2026-09-23T20:19:22.372934+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_finalization_r13.cpython-312.pyc",
+   "size_bytes": 188290,
+   "sha256": "d405aa17ccdbb1836e5db58fec075c4b80d3c1024986d3607461a20acc705350",
+   "mtime_utc": "2026-09-23T20:18:52.423440+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_heartbeat_r3.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 56683,
+   "sha256": "9af27291408e1c14a3580ee31933bf9dde76a962ceb30234912b40270a57f377",
+   "mtime_utc": "2026-09-23T11:51:07.524917+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_heartbeat_r3.cpython-312.pyc",
+   "size_bytes": 53404,
+   "sha256": "b13737d04a8f130984ed1e80a7faee0c773e9f6bef08a61210cbfa71b1ae9987",
+   "mtime_utc": "2026-09-23T11:58:57.056870+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_pathprobe.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 649,
+   "sha256": "16d3e73a00cece940e30f311554fb2cbbd2821392cff40d59f7da326f61c734a",
+   "mtime_utc": "2026-09-23T21:07:03.562605+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_r14_b_injection.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 151818,
+   "sha256": "15dd5839a5215dfb947b70ee6d978b4af0b915adb3fcd998bfea4eb12ba44d97",
+   "mtime_utc": "2026-09-23T21:44:07.053150+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_r14_b_injection.cpython-312.pyc",
+   "size_bytes": 151705,
+   "sha256": "bdd63a617fa580f6c6c41ce87fb3b93fe718ba6860671d5916f7fcd0b9d4cd4b",
+   "mtime_utc": "2026-09-23T21:44:15.840179+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_r14_c_composition.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 176028,
+   "sha256": "65b9358e70922ab74f6b400d29c4f9e91cdee6f460e91f8b6075ac8fd14bf147",
+   "mtime_utc": "2026-09-23T22:23:23.468223+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_r14_c_composition.cpython-312.pyc",
+   "size_bytes": 175166,
+   "sha256": "db70eec8a7e59e618a0d3b3bc1b886d87e34d908756600cf3ab00e5010ae8721",
+   "mtime_utc": "2026-09-23T22:14:53.838224+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_r14_d_corruption.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 150414,
+   "sha256": "6f5e0a8eaa923e5270d16df292cbf3d2d8fff120619fb87e7e73228d266daa35",
+   "mtime_utc": "2026-09-23T22:23:05.525222+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_r14_d_corruption.cpython-312.pyc",
+   "size_bytes": 148200,
+   "sha256": "bce53c9d7ff1a37f0a617f94ef6a932f84dc30cbe3391063e3f0e3536f8de0b9",
+   "mtime_utc": "2026-09-23T21:20:59.600373+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_reclaim.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 33120,
+   "sha256": "364c9263aa89eb738dffd5040e3632911850381302f889d22a8746a2220a978b",
+   "mtime_utc": "2026-09-23T09:58:56.098658+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_reclaim.cpython-312.pyc",
+   "size_bytes": 33007,
+   "sha256": "b3881c23930517ed7c25d20ae8cdbfed749d8bdc4035c910e2f1f0d1352105f3",
+   "mtime_utc": "2026-09-23T14:59:35.079278+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_reconciliation_r11.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 142675,
+   "sha256": "433747563c69f58c54436862623cfb83a55c4d269952d2bb704780ae2141cfdf",
+   "mtime_utc": "2026-09-23T18:01:54.849614+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_reconciliation_r11.cpython-312.pyc",
+   "size_bytes": 140808,
+   "sha256": "6539b726ebb0dc9bff665002aa8f2e1c5d6c86500af2181b5956b6577dc7d6f4",
+   "mtime_utc": "2026-09-23T17:59:42.837765+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_recovery_r8.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 104750,
+   "sha256": "a062323920961d04400f9e5d0932f5086fd23fe9b1e4a08f947381388ae0e972",
+   "mtime_utc": "2026-09-23T18:17:14.809650+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_recovery_r8.cpython-312.pyc",
+   "size_bytes": 104532,
+   "sha256": "0ad2f91656560486cc5b0be498c029b82fde6181b2e3196d9307a6ed9702cf71",
+   "mtime_utc": "2026-09-23T15:43:14.103427+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_recovery_r9.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 104646,
+   "sha256": "9600e77d098a6fe5d408c6f878585169ef3544fc6ba7f857b5bba6ecbed93b8e",
+   "mtime_utc": "2026-09-23T23:04:00.683317+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_recovery_r9.cpython-312.pyc",
+   "size_bytes": 104443,
+   "sha256": "67a0ce89dab102a43cd5095d7a913cb71168190f320f1baae1006689de30c165",
+   "mtime_utc": "2026-09-23T20:00:53.869743+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_remediation.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 25250,
+   "sha256": "3d47caf9ee5f34e99d07b3d6713d591c133d9ddfc237c47af59c46345c82635f",
+   "mtime_utc": "2026-09-23T10:12:55.249800+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_remediation.cpython-312.pyc",
+   "size_bytes": 25137,
+   "sha256": "b09190350aef28a75b20895afa69355c71ebf52b9adc934678ae812cc0a8f6f7",
+   "mtime_utc": "2026-09-23T14:59:59.695608+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_resilience_r12.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 164612,
+   "sha256": "3a2639766d4ee3eb6705cd9ae0217f5a3be77103b909967c8e19905b02570452",
+   "mtime_utc": "2026-09-23T19:41:28.195963+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_scheduler_r10.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 121105,
+   "sha256": "b1688e35a5b3f6c44605269e59246d9708a0e763ba88ebf21918caf1da93d974",
+   "mtime_utc": "2026-09-23T17:29:59.670947+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_scheduler_r10.cpython-312.pyc",
+   "size_bytes": 120160,
+   "sha256": "adf55bd74f1ae35b829fa6562c753c6a81fbfd9592404abd90cfaf7b010ae0a7",
+   "mtime_utc": "2026-09-23T17:14:00.640398+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_sig_probe.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 852,
+   "sha256": "b4ca1db4f52e360b4d105bef5b00137823083aec8cb3251f313c619c16563dd6",
+   "mtime_utc": "2026-09-23T19:35:35.492820+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_store.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 38340,
+   "sha256": "bc361aecc44de69f61071fc8fd3d4e149229b5f6274aecc25e75d1a81abf6838",
+   "mtime_utc": "2026-09-23T10:12:55.265529+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_store.cpython-312.pyc",
+   "size_bytes": 38227,
+   "sha256": "13e3b46bfcaf0268827a4369549c5c81df5aeb3b6c6a89561aef2c675e603ea4",
+   "mtime_utc": "2026-09-23T14:59:59.708276+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_watchdog_r7.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 93692,
+   "sha256": "3f24d67fcf4bdc3aace04fc6ef0289740b170b61306f7026339c44bc94daed29",
+   "mtime_utc": "2026-09-23T11:55:12.168164+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_watchdog_r7.cpython-312.pyc",
+   "size_bytes": 93552,
+   "sha256": "57c82b531e2f19b1918e5daf2cad6583d050c3ce6c1c7cb09d01d503c3988904",
+   "mtime_utc": "2026-09-23T11:58:57.047828+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_zzdbg.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 4547,
+   "sha256": "6e5807978f3ee79d528004d2c1154566c8bd9bc0febc9075468d0aba31213127",
+   "mtime_utc": "2026-09-23T22:12:31.767918+00:00"
+  },
+  {
+   "path": "axos/tests/__pycache__/test_zzlat.cpython-312-pytest-9.1.1.pyc",
+   "size_bytes": 1166,
+   "sha256": "5d7fbbade7612e3d7a9ad1a18a7c56e0b34520a4ae48f22139862a8df1afdaf8",
+   "mtime_utc": "2026-09-23T22:14:49.334925+00:00"
+  },
+  {
+   "path": "axos/tests/_crasher.py",
+   "size_bytes": 1995,
+   "sha256": "df5f0f37204bc6dbfcc1a9905900109e525b7cb537ae657917e1d1bbe7847235",
+   "mtime_utc": "2026-09-23T06:21:25.520704+00:00"
+  },
+  {
+   "path": "axos/tests/_supdrv.py",
+   "size_bytes": 5328,
+   "sha256": "e2233de51f130ab4ce1110f92ded55009c77f44d13dd112d28f9560c892e6a1b",
+   "mtime_utc": "2026-09-23T21:06:56.512045+00:00"
+  },
+  {
+   "path": "axos/tests/r5_helpers.py",
+   "size_bytes": 3938,
+   "sha256": "6a8fff332104d0e5d64e2e8e2783b1d917be07c818e1e9068c2501c71ea2191b",
+   "mtime_utc": "2026-09-23T22:21:10.291218+00:00"
+  },
+  {
+   "path": "axos/tests/test_artifacts_r5.py",
+   "size_bytes": 50831,
+   "sha256": "d182d938fb6ad688b3ed1198be5c8b54109ba3849747c1c2a3575582b2c62ede",
+   "mtime_utc": "2026-09-23T22:22:16.946556+00:00"
+  },
+  {
+   "path": "axos/tests/test_boot_r6.py",
+   "size_bytes": 58734,
+   "sha256": "d8707950e9e423da0a4b4bc5f54477b1608fb9e052cb2f6ec229bfcd61e69c43",
+   "mtime_utc": "2026-09-23T10:56:58.768029+00:00"
+  },
+  {
+   "path": "axos/tests/test_exec.py",
+   "size_bytes": 53128,
+   "sha256": "121e0fb9605b779832120f17b189d87417f19a5cf3c3d8412c4a0243087acff6",
+   "mtime_utc": "2026-09-23T10:17:01.820832+00:00"
+  },
+  {
+   "path": "axos/tests/test_expiry_r4.py",
+   "size_bytes": 37673,
+   "sha256": "d38f688e4c50df5e88fa66cdb2439a5981911b215f236dc3069a91a6d268f629",
+   "mtime_utc": "2026-09-23T09:58:54.708658+00:00"
+  },
+  {
+   "path": "axos/tests/test_fence_enforce.py",
+   "size_bytes": 26922,
+   "sha256": "e6371b1aaa7b4c17b8a1f891b50fa1417068a239d86e071a6cd3ef5016cf3e26",
+   "mtime_utc": "2026-09-23T10:40:06.256639+00:00"
+  },
+  {
+   "path": "axos/tests/test_final_hardening_r14.py",
+   "size_bytes": 366437,
+   "sha256": "e68ac802b8557a94cb2f9049d776886063e01ad254909b83f22d230115924ea0",
+   "mtime_utc": "2026-09-23T22:27:59.262234+00:00"
+  },
+  {
+   "path": "axos/tests/test_finalization_r13.py",
+   "size_bytes": 136316,
+   "sha256": "391420798f273afc40176151381f181bde26659ae70721461f30b5d62d072c5a",
+   "mtime_utc": "2026-09-23T20:18:36.363932+00:00"
+  },
+  {
+   "path": "axos/tests/test_heartbeat_r3.py",
+   "size_bytes": 36023,
+   "sha256": "67d086d2a06013210643cd5d86e77d4ee4aafe6051de8860149f8cd0caf505d4",
+   "mtime_utc": "2026-09-23T11:51:06.607155+00:00"
+  },
+  {
+   "path": "axos/tests/test_reclaim.py",
+   "size_bytes": 20610,
+   "sha256": "93d0e8f0338775dfdc5b793936ff82afc7c21da0f7f858869d1231423af6c275",
+   "mtime_utc": "2026-09-23T09:58:53.806658+00:00"
+  },
+  {
+   "path": "axos/tests/test_reconciliation_r11.py",
+   "size_bytes": 97717,
+   "sha256": "faee897281da1ed70ae0ad2fe94b9e789cc15b98c2d65f107d5758fc6603683e",
+   "mtime_utc": "2026-09-23T18:01:53.672614+00:00"
+  },
+  {
+   "path": "axos/tests/test_recovery_r8.py",
+   "size_bytes": 77236,
+   "sha256": "67ab4c9b10de283e49e66ee8ead7b83ad29e539b29a97c692800712e11f207a8",
+   "mtime_utc": "2026-09-23T18:17:13.040650+00:00"
+  },
+  {
+   "path": "axos/tests/test_recovery_r9.py",
+   "size_bytes": 72933,
+   "sha256": "83182ccaaff0a275c193315097c1a4ff9f6cc2b81e9cf8ff83cb36786753d106",
+   "mtime_utc": "2026-09-23T23:03:59.730318+00:00"
+  },
+  {
+   "path": "axos/tests/test_remediation.py",
+   "size_bytes": 15496,
+   "sha256": "5b1ff4df42666131e7736b7c3e9afa722d806fd43e56457b9a1bde4ffe0fb9a6",
+   "mtime_utc": "2026-09-23T10:06:39.607654+00:00"
+  },
+  {
+   "path": "axos/tests/test_resilience_r12.py",
+   "size_bytes": 116899,
+   "sha256": "1c0a90e762701d70da4cb394553c26dea351f378cdd33835541f0b9508271a79",
+   "mtime_utc": "2026-09-23T19:41:27.143846+00:00"
+  },
+  {
+   "path": "axos/tests/test_scheduler_r10.py",
+   "size_bytes": 78102,
+   "sha256": "fce6b8fde820bcc1d1035c6149b7a6286be6d3463a2198a6c44df45b348ec53a",
+   "mtime_utc": "2026-09-23T17:13:57.560502+00:00"
+  },
+  {
+   "path": "axos/tests/test_store.py",
+   "size_bytes": 25631,
+   "sha256": "9bb46cbf2f85fb832c8b70ba2bddaf164c85c0e111aa86dbba0055563edb9ae7",
+   "mtime_utc": "2026-09-23T10:06:40.872654+00:00"
+  },
+  {
+   "path": "axos/tests/test_watchdog_r7.py",
+   "size_bytes": 58892,
+   "sha256": "5bb6c116413ed21e84a46609f96eb48249137ade70504fea81e4544590731abe",
+   "mtime_utc": "2026-09-23T11:55:11.288164+00:00"
+  }
+ ]
+}

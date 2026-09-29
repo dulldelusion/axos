@@ -1,0 +1,165 @@
+{
+  "provenance": {
+    "source": "frozen AXOS source in src/axos/",
+    "release_id": "551d559cf3489148fe8966b56376dfab6c5b909278685bd623eed0e7cef4c192",
+    "generated_by": "tools/extract_contracts.py",
+    "regenerate": "python3 tools/extract_contracts.py"
+  },
+  "description": "State transition graphs enforced by the gate. The gate transactionally rejects any transition not listed here (src/axos/store/transitions.py module docstring).",
+  "graphs": {
+    "task": {
+      "PROPOSED": [
+        "AUTHORIZED",
+        "REJECTED"
+      ],
+      "AUTHORIZED": [
+        "PLANNED",
+        "PAUSED_FOR_HUMAN"
+      ],
+      "PLANNED": [
+        "EXECUTING"
+      ],
+      "EXECUTING": [
+        "VERIFYING",
+        "PAUSED_FOR_HUMAN",
+        "FAILED",
+        "CANCELLED"
+      ],
+      "VERIFYING": [
+        "FINALIZED",
+        "PAUSED_FOR_HUMAN"
+      ],
+      "BLOCKED": [
+        "EXECUTING"
+      ],
+      "PAUSED_FOR_HUMAN": [
+        "EXECUTING",
+        "CANCELLED"
+      ],
+      "REJECTED": [],
+      "FAILED": [],
+      "CANCELLED": [],
+      "FINALIZED": []
+    },
+    "job": {
+      "PENDING": [
+        "CLAIMED"
+      ],
+      "CLAIMED": [
+        "RUNNING",
+        "PENDING",
+        "FAILED"
+      ],
+      "RUNNING": [
+        "COMMITTING",
+        "PENDING",
+        "UNCERTAIN",
+        "FAILED"
+      ],
+      "COMMITTING": [
+        "COMPLETE",
+        "UNCERTAIN",
+        "FAILED"
+      ],
+      "UNCERTAIN": [
+        "COMPLETE",
+        "PENDING",
+        "QUARANTINED"
+      ],
+      "FAILED": [
+        "PENDING",
+        "QUARANTINED",
+        "BLOCKED"
+      ],
+      "QUARANTINED": [
+        "PENDING"
+      ],
+      "BLOCKED": [
+        "PENDING"
+      ],
+      "COMPLETE": []
+    },
+    "worker": {
+      "PROVISIONING": [
+        "IDLE",
+        "DEAD"
+      ],
+      "IDLE": [
+        "ASSIGNED",
+        "DRAINING"
+      ],
+      "ASSIGNED": [
+        "RUNNING",
+        "SUSPECT"
+      ],
+      "RUNNING": [
+        "IDLE",
+        "DRAINING",
+        "SUSPECT"
+      ],
+      "SUSPECT": [
+        "RUNNING",
+        "DEAD"
+      ],
+      "DRAINING": [
+        "RETIRED"
+      ],
+      "DEAD": [],
+      "RETIRED": []
+    },
+    "artifact": {
+      "STAGING": [
+        "VALIDATED",
+        "QUARANTINED"
+      ],
+      "VALIDATED": [
+        "RELEASED",
+        "QUARANTINED"
+      ],
+      "RELEASED": [
+        "QUARANTINED"
+      ],
+      "QUARANTINED": []
+    },
+    "approval": {
+      "PENDING": [
+        "APPROVED",
+        "DENIED",
+        "EXPIRED"
+      ],
+      "APPROVED": [],
+      "DENIED": [],
+      "EXPIRED": []
+    },
+    "checkpoint": {
+      "UNVERIFIED": [
+        "VERIFYING"
+      ],
+      "VERIFYING": [
+        "VERIFIED",
+        "CORRUPT"
+      ],
+      "VERIFIED": [],
+      "CORRUPT": []
+    }
+  },
+  "sets": {
+    "HUMAN_GATED_FROM": [
+      "PAUSED_FOR_HUMAN"
+    ],
+    "WORK_CREATOR_ACTORS": [
+      "human",
+      "reconciler",
+      "scheduler",
+      "system",
+      "test"
+    ],
+    "RECLAIM_ACTORS": [
+      "operator",
+      "reconciler",
+      "recovery-controller",
+      "system",
+      "test"
+    ]
+  }
+}

@@ -1,0 +1,498 @@
+[
+ {
+  "path": "axos/AUDIT-REPORT.md",
+  "type": "file",
+  "size_bytes": 14934,
+  "sha256": "ec3b1256b7be117b20830a5b0bf58734b4f1f25b9568620c9243e5ff06fc7866",
+  "mtime_utc": "2026-09-23T06:33:38.408736+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/PHASE-1C-FINAL-STATUS.md",
+  "type": "file",
+  "size_bytes": 11567,
+  "sha256": "d70b718c2d64cdf8d61b1cd100750e0b40b3b9602ea78c48c4ec59e974f0bd59",
+  "mtime_utc": "2026-09-24T09:07:07.088411+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/PHASE1A-REPORT.md",
+  "type": "file",
+  "size_bytes": 5163,
+  "sha256": "b188cfd4a200f2618a6e703f0d2529e54a088fa674d3a6e1c90ac60fe6e8f307",
+  "mtime_utc": "2026-09-23T06:22:22.410707+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/R14-CONTRACT-AMENDMENT-PROPOSAL.md",
+  "type": "file",
+  "size_bytes": 5359,
+  "sha256": "17a73e567609f77fe68ef67c420895e1bfcfcfd60a401bdaba1ff3d166e63ac7",
+  "mtime_utc": "2026-09-24T08:43:58.124417+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/R14-EVIDENCE.md",
+  "type": "file",
+  "size_bytes": 11866,
+  "sha256": "6448fabd99d628f292228cd7e09cbef1e4f2f3df2e08bafe323ac1e988a0b68a",
+  "mtime_utc": "2026-09-24T06:54:28.240443+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/R14-EXTERNAL-VALIDATION.json",
+  "type": "file",
+  "size_bytes": 1096,
+  "sha256": "88a0acbde6cbb7dd1d9771aceab293f766977954ecef540b38d13cd325806c97",
+  "mtime_utc": "2026-09-24T07:20:55.268436+00:00",
+  "category": "metadata"
+ },
+ {
+  "path": "axos/R14-EXTERNAL-VALIDATION.md",
+  "type": "file",
+  "size_bytes": 11442,
+  "sha256": "8b354bd17271df4ef0a39053695bd7752cc6764e5cb7266f5aaaceb21fa0d5f3",
+  "mtime_utc": "2026-09-24T07:20:53.749436+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/R14-PLAN.md",
+  "type": "file",
+  "size_bytes": 7691,
+  "sha256": "3d20ca6cbcf17540b1a017c503152de230fa8d84b5b036a50f8a09a5fb691f15",
+  "mtime_utc": "2026-09-23T20:57:22.410023+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/README.md",
+  "type": "file",
+  "size_bytes": 3770,
+  "sha256": "7cba30f08853358af6bec870ab923e8a446b41f71a5eda46ad731e4a18923b3e",
+  "mtime_utc": "2026-09-23T06:38:52.191749+00:00",
+  "category": "documentation"
+ },
+ {
+  "path": "axos/audit/01_write_path.py",
+  "type": "file",
+  "size_bytes": 7505,
+  "sha256": "c6fbaaea94f3fe49c97bf4782f8daff7e0d053ab807e4c2b7b50a06525b0174d",
+  "mtime_utc": "2026-09-23T06:38:47.094748+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/02_transitions.py",
+  "type": "file",
+  "size_bytes": 11025,
+  "sha256": "6b8e6e4306df1e235b70be5bd4acd671f967d875d881628d19228bbca1ccb6dc",
+  "mtime_utc": "2026-09-23T10:21:18.570413+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/03_leases.py",
+  "type": "file",
+  "size_bytes": 8766,
+  "sha256": "8da5365e9a0d374b2d11a265043b2e2993c3c41a17bf6767e884fc5c655570ae",
+  "mtime_utc": "2026-09-23T10:21:21.167349+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/04_i17_i18.py",
+  "type": "file",
+  "size_bytes": 8922,
+  "sha256": "461cdf2164854a39860cf35597d160df1758cfe04667ba6569b52f572d090276",
+  "mtime_utc": "2026-09-23T06:38:08.108747+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/05_ledger.py",
+  "type": "file",
+  "size_bytes": 5554,
+  "sha256": "da2ad1622881bbc5eca8790b0818e17a2acb76361fd729f4bab1e4a05713d9d1",
+  "mtime_utc": "2026-09-23T06:32:18.301732+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/06_crash_backup_migration.py",
+  "type": "file",
+  "size_bytes": 8572,
+  "sha256": "4f2dae9367873f9da825474363bca7021a0d02c88a0d1af435abe03423913b17",
+  "mtime_utc": "2026-09-23T06:56:06.569793+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/07_race.py",
+  "type": "file",
+  "size_bytes": 1830,
+  "sha256": "9c3e408346a6d28dcb88f6b168a20082ced890ef9dc6a322667a8bcf7758848e",
+  "mtime_utc": "2026-09-23T06:38:28.816748+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/08_retest.py",
+  "type": "file",
+  "size_bytes": 6792,
+  "sha256": "5905fea5810ebf2d242c2cde32dc4cb209912a2141d05b5cc3b99aadd58e3629",
+  "mtime_utc": "2026-09-23T06:38:39.574748+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/09_authority_audit.py",
+  "type": "file",
+  "size_bytes": 119213,
+  "sha256": "af9c3aca6a4328372f1bd93982d297aa56aa985e94a253deab09ae245c6d3834",
+  "mtime_utc": "2026-09-23T21:40:27.198123+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/_killpoints.py",
+  "type": "file",
+  "size_bytes": 1842,
+  "sha256": "1b16e4dc6393e0b6497feff65330b13737166bd858be04adc97f651cec6cb965",
+  "mtime_utc": "2026-09-23T23:22:35.944126+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/_migkill.py",
+  "type": "file",
+  "size_bytes": 522,
+  "sha256": "f16ee6df3d696020292ea510a9533b7f73f17ae4a829a124c9c94907b8f472b1",
+  "mtime_utc": "2026-09-23T23:22:37.332409+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/audit/stray_process_audit.py",
+  "type": "file",
+  "size_bytes": 1675,
+  "sha256": "9ec28bbce78dd71e383b5a0d8be3c99b439e7eeb3771c22ca85e9ce0fce8dd48",
+  "mtime_utc": "2026-09-23T22:28:08.506234+00:00",
+  "category": "tooling"
+ },
+ {
+  "path": "axos/exec/__init__.py",
+  "type": "file",
+  "size_bytes": 86,
+  "sha256": "be5f68abd149694100fbead609427af5b49408e2a89ba8e819f597c908720344",
+  "mtime_utc": "2026-09-23T06:45:55.448767+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/boot.py",
+  "type": "file",
+  "size_bytes": 31335,
+  "sha256": "7dce251f1a58779257a886e49a55a0ccf5db417b55269137bebaf9df91e7ed9c",
+  "mtime_utc": "2026-09-23T10:39:02.130639+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/finalizer.py",
+  "type": "file",
+  "size_bytes": 13101,
+  "sha256": "f744eaf52a2f55cd9d902c62098cbed87ddb4c328dcd318108baa468a9c89caa",
+  "mtime_utc": "2026-09-23T19:59:48.953889+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/identity.py",
+  "type": "file",
+  "size_bytes": 1784,
+  "sha256": "065a65d7533d27f764006fc60019569269e4d0cad5d850afc1ba439b4e933d4d",
+  "mtime_utc": "2026-09-23T06:45:24.569176+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/policy.py",
+  "type": "file",
+  "size_bytes": 51331,
+  "sha256": "a359f1df5aba2ced1dfae6b64b0aa31de5a2011b883072afebc3c62508a712f2",
+  "mtime_utc": "2026-09-23T23:21:36.398393+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/reconciler.py",
+  "type": "file",
+  "size_bytes": 28467,
+  "sha256": "376e9d8da2d3a5622dc94bbcf1a6d7b432233215bc29a86540534845019095cb",
+  "mtime_utc": "2026-09-23T18:05:32.194691+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/recovery.py",
+  "type": "file",
+  "size_bytes": 60022,
+  "sha256": "e3164fa52c03f2cefed81d998abb7eba1b1cb06abcceb31e1f482c9af04364d1",
+  "mtime_utc": "2026-09-23T14:50:12.549610+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/resilience.py",
+  "type": "file",
+  "size_bytes": 36603,
+  "sha256": "ac51908ce927b7f6d0b15610668a98d33036419dd7dad5d1747e321cf8716766",
+  "mtime_utc": "2026-09-23T19:08:53.488770+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/scheduler.py",
+  "type": "file",
+  "size_bytes": 23313,
+  "sha256": "373b473991dbde10a74d207ace15fe7e3d907dd409b5019f76ba15e556036f28",
+  "mtime_utc": "2026-09-23T19:11:42.235777+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/supervisor.py",
+  "type": "file",
+  "size_bytes": 59498,
+  "sha256": "556c9500ee289a2cf85a6bbcb1a34d67c19aeb8cd89310999fd6f702b8a2e1de",
+  "mtime_utc": "2026-09-23T16:44:28.182588+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/synthetic.py",
+  "type": "file",
+  "size_bytes": 15355,
+  "sha256": "1d146d72243e181b28a3a7b6114aa26b5e8efe5ff93df8f380c78648e165f5a6",
+  "mtime_utc": "2026-09-23T22:22:40.139221+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/watchdog.py",
+  "type": "file",
+  "size_bytes": 24864,
+  "sha256": "e0a6116a53966f63840b9ff655f86fc5bb7740392cc7f7098130ca8953b92870",
+  "mtime_utc": "2026-09-23T21:12:32.140058+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/exec/worker.py",
+  "type": "file",
+  "size_bytes": 16874,
+  "sha256": "b69b2c9b21116e43c88fec059fc90a5c582f91b672ed1ff19e85b23ccfaa8b84",
+  "mtime_utc": "2026-09-23T22:21:10.290218+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/release_manifest.json",
+  "type": "file",
+  "size_bytes": 6344,
+  "sha256": "2fa26d3ef74ee603d69b9d64ca54b7eb7c84f092ee0c283b3138b2672ad911eb",
+  "mtime_utc": "2026-09-23T23:21:36.421558+00:00",
+  "category": "metadata"
+ },
+ {
+  "path": "axos/store.db",
+  "type": "file",
+  "size_bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "mtime_utc": "2026-09-24T17:30:36.886397+00:00",
+  "category": "other"
+ },
+ {
+  "path": "axos/store/__init__.py",
+  "type": "file",
+  "size_bytes": 1000,
+  "sha256": "11bfed10907bf964dd5af22183c7e3aca1ae21ddb9522954fe5f1459fd371fa6",
+  "mtime_utc": "2026-09-23T19:56:19.997880+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/store/db.py",
+  "type": "file",
+  "size_bytes": 13145,
+  "sha256": "85204951954816bb4c60d281d20d2a09151d558b8200964949b8893c29c9d6dc",
+  "mtime_utc": "2026-09-23T19:56:18.408880+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/store/gate.py",
+  "type": "file",
+  "size_bytes": 292659,
+  "sha256": "7d11086427d1a0e89fccd0dff438e1eba1ec083060a7732a0bd296bcbac11123",
+  "mtime_utc": "2026-09-23T22:22:13.933220+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/store/migrations.py",
+  "type": "file",
+  "size_bytes": 28723,
+  "sha256": "d386ab9e2599a7e293d56d86b6e77c4e26d80c1aa77392fb6cb1857f996e7bb5",
+  "mtime_utc": "2026-09-23T22:20:17.481216+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/store/store.db",
+  "type": "file",
+  "size_bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "mtime_utc": "2026-09-24T18:07:32.424302+00:00",
+  "category": "other"
+ },
+ {
+  "path": "axos/store/transitions.py",
+  "type": "file",
+  "size_bytes": 3319,
+  "sha256": "312a5c4e511d787b25b8ec8a35f14e65564f0b0b60cdff643e43d0ab184d072a",
+  "mtime_utc": "2026-09-23T17:46:27.056578+00:00",
+  "category": "source"
+ },
+ {
+  "path": "axos/tests/_crasher.py",
+  "type": "file",
+  "size_bytes": 1995,
+  "sha256": "df5f0f37204bc6dbfcc1a9905900109e525b7cb537ae657917e1d1bbe7847235",
+  "mtime_utc": "2026-09-23T06:21:25.520704+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/_supdrv.py",
+  "type": "file",
+  "size_bytes": 5328,
+  "sha256": "e2233de51f130ab4ce1110f92ded55009c77f44d13dd112d28f9560c892e6a1b",
+  "mtime_utc": "2026-09-23T21:06:56.512045+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/r5_helpers.py",
+  "type": "file",
+  "size_bytes": 3938,
+  "sha256": "6a8fff332104d0e5d64e2e8e2783b1d917be07c818e1e9068c2501c71ea2191b",
+  "mtime_utc": "2026-09-23T22:21:10.291218+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_artifacts_r5.py",
+  "type": "file",
+  "size_bytes": 50831,
+  "sha256": "d182d938fb6ad688b3ed1198be5c8b54109ba3849747c1c2a3575582b2c62ede",
+  "mtime_utc": "2026-09-23T22:22:16.946556+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_boot_r6.py",
+  "type": "file",
+  "size_bytes": 58734,
+  "sha256": "d8707950e9e423da0a4b4bc5f54477b1608fb9e052cb2f6ec229bfcd61e69c43",
+  "mtime_utc": "2026-09-23T10:56:58.768029+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_exec.py",
+  "type": "file",
+  "size_bytes": 53128,
+  "sha256": "121e0fb9605b779832120f17b189d87417f19a5cf3c3d8412c4a0243087acff6",
+  "mtime_utc": "2026-09-23T10:17:01.820832+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_expiry_r4.py",
+  "type": "file",
+  "size_bytes": 37673,
+  "sha256": "d38f688e4c50df5e88fa66cdb2439a5981911b215f236dc3069a91a6d268f629",
+  "mtime_utc": "2026-09-23T09:58:54.708658+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_fence_enforce.py",
+  "type": "file",
+  "size_bytes": 26922,
+  "sha256": "e6371b1aaa7b4c17b8a1f891b50fa1417068a239d86e071a6cd3ef5016cf3e26",
+  "mtime_utc": "2026-09-23T10:40:06.256639+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_final_hardening_r14.py",
+  "type": "file",
+  "size_bytes": 366437,
+  "sha256": "e68ac802b8557a94cb2f9049d776886063e01ad254909b83f22d230115924ea0",
+  "mtime_utc": "2026-09-23T22:27:59.262234+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_finalization_r13.py",
+  "type": "file",
+  "size_bytes": 136316,
+  "sha256": "391420798f273afc40176151381f181bde26659ae70721461f30b5d62d072c5a",
+  "mtime_utc": "2026-09-23T20:18:36.363932+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_heartbeat_r3.py",
+  "type": "file",
+  "size_bytes": 36023,
+  "sha256": "67d086d2a06013210643cd5d86e77d4ee4aafe6051de8860149f8cd0caf505d4",
+  "mtime_utc": "2026-09-23T11:51:06.607155+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_reclaim.py",
+  "type": "file",
+  "size_bytes": 20610,
+  "sha256": "93d0e8f0338775dfdc5b793936ff82afc7c21da0f7f858869d1231423af6c275",
+  "mtime_utc": "2026-09-23T09:58:53.806658+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_reconciliation_r11.py",
+  "type": "file",
+  "size_bytes": 97717,
+  "sha256": "faee897281da1ed70ae0ad2fe94b9e789cc15b98c2d65f107d5758fc6603683e",
+  "mtime_utc": "2026-09-23T18:01:53.672614+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_recovery_r8.py",
+  "type": "file",
+  "size_bytes": 77236,
+  "sha256": "67ab4c9b10de283e49e66ee8ead7b83ad29e539b29a97c692800712e11f207a8",
+  "mtime_utc": "2026-09-23T18:17:13.040650+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_recovery_r9.py",
+  "type": "file",
+  "size_bytes": 72933,
+  "sha256": "83182ccaaff0a275c193315097c1a4ff9f6cc2b81e9cf8ff83cb36786753d106",
+  "mtime_utc": "2026-09-23T23:03:59.730318+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_remediation.py",
+  "type": "file",
+  "size_bytes": 15496,
+  "sha256": "5b1ff4df42666131e7736b7c3e9afa722d806fd43e56457b9a1bde4ffe0fb9a6",
+  "mtime_utc": "2026-09-23T10:06:39.607654+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_resilience_r12.py",
+  "type": "file",
+  "size_bytes": 116899,
+  "sha256": "1c0a90e762701d70da4cb394553c26dea351f378cdd33835541f0b9508271a79",
+  "mtime_utc": "2026-09-23T19:41:27.143846+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_scheduler_r10.py",
+  "type": "file",
+  "size_bytes": 78102,
+  "sha256": "fce6b8fde820bcc1d1035c6149b7a6286be6d3463a2198a6c44df45b348ec53a",
+  "mtime_utc": "2026-09-23T17:13:57.560502+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_store.py",
+  "type": "file",
+  "size_bytes": 25631,
+  "sha256": "9bb46cbf2f85fb832c8b70ba2bddaf164c85c0e111aa86dbba0055563edb9ae7",
+  "mtime_utc": "2026-09-23T10:06:40.872654+00:00",
+  "category": "test"
+ },
+ {
+  "path": "axos/tests/test_watchdog_r7.py",
+  "type": "file",
+  "size_bytes": 58892,
+  "sha256": "5bb6c116413ed21e84a46609f96eb48249137ade70504fea81e4544590731abe",
+  "mtime_utc": "2026-09-23T11:55:11.288164+00:00",
+  "category": "test"
+ }
+]

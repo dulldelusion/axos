@@ -1,0 +1,40 @@
+{
+  "provenance": {
+    "source": "frozen AXOS source in src/axos/",
+    "release_id": "551d559cf3489148fe8966b56376dfab6c5b909278685bd623eed0e7cef4c192",
+    "generated_by": "tools/extract_contracts.py",
+    "regenerate": "python3 tools/extract_contracts.py"
+  },
+  "description": "R8 recovery controller's canonical rung mapping: each R8 action records its canonical ladder rung (contract E.1) without implementing ladder policy. From src/axos/exec/recovery.py.",
+  "canonical_rungs": {
+    "fence": {
+      "rung": 3,
+      "name": "replace/reassign"
+    },
+    "reclaim": {
+      "rung": 2,
+      "name": "re-claim/requeue"
+    },
+    "restart": {
+      "rung": 3,
+      "name": "replace/reassign"
+    }
+  },
+  "failure_classes": [
+    "STALLED",
+    "DEAD",
+    "LEASE_EXPIRED",
+    "STALE_AUTHORITY",
+    "UNCERTAIN"
+  ],
+  "recovery_actions": [
+    "reclaim",
+    "fence",
+    "restart"
+  ],
+  "escalation": {
+    "zero_progress_attempt_run_before_escalation": 2,
+    "escalation_target": "r9-policy",
+    "rule": "zero authoritative progress across TWO consecutive recovery attempts is failed recovery -> escalate (contract E section 4, mission R8 section 11)."
+  }
+}

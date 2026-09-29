@@ -1,0 +1,59 @@
+# AXOS Portable Runtime — Dependency Lock
+# Release 551d559cf3489148fe8966b56376dfab6c5b909278685bd623eed0e7cef4c192
+# Migration v12 | Generated 2026-09-28 (Worker B, read-only inspection of ~/workspace/axos/)
+#
+# VERDICT: AXOS HAS ZERO THIRD-PARTY RUNTIME DEPENDENCIES.
+# The entire runtime (exec/, store/, audit/, tests/) imports only the Python
+# standard library plus intra-package modules. Evidence:
+#   - README.md: "Standard library only (sqlite3, hashlib, json, threading) —
+#     no frameworks, no external services."
+#   - Exhaustive grep of all import statements across exec/, store/, audit/,
+#     tests/ (excluding __pycache__) yields only stdlib top-level modules.
+#   - No pyproject.toml, no requirements*.txt, no Pipfile, no lockfiles exist
+#     anywhere under ~/workspace/axos/.
+#   - No `import pytest` or any other third-party import in any .py source.
+#     (pytest 9.1.1 appears only in __pycache__ filenames from a historical
+#     test run; it is not imported by source and the documented test runner
+#     is `python3 -m unittest discover -s tests -v`.)
+#
+# This file reproduces the existing system. It is NOT a modernization:
+# versions below are the versions currently in use per release_manifest.json.
+
+[interpreter]
+python = "==3.12.3"          # from release_manifest.json -> python_version
+
+[database]
+# SQLite is accessed exclusively through the Python stdlib `sqlite3` module
+# (store/db.py). No sqlite3 CLI, no ORM, no driver package.
+sqlite = "==3.45.1"          # from release_manifest.json -> sqlite_version
+journal_mode = "WAL"         # enforced by Store: PRAGMA journal_mode=WAL,
+                             # raises StoreError if not WAL
+synchronous = "NORMAL"       # PRAGMA synchronous=NORMAL
+foreign_keys = "ON"          # PRAGMA foreign_keys=ON
+busy_timeout_ms = 5000       # PRAGMA busy_timeout=5000
+page_size = 4096             # PRAGMA page_size=4096 (fresh DBs)
+
+[third_party]
+# Intentionally empty. There is nothing to pin.
+count = 0
+
+[stdlib_modules_used]
+# Complete list of stdlib top-level modules imported by AXOS source
+# (union over exec/, store/, audit/, tests/):
+# argparse, ast, contextlib, dataclasses, datetime, hashlib, inspect, json,
+# math, os, platform, random, re, shutil, signal, sqlite3, subprocess, sys,
+# tempfile, textwrap, threading, time, unittest, uuid, typing
+#
+# Notes:
+# - `subprocess` is used ONLY to spawn sys.executable (the same interpreter):
+#   supervisor spawns worker commands (start_new_session=True, POSIX process
+#   groups, os.killpg for fencing); synthetic.py spawns `python -c` children
+#   for crash/behavior tests; audit scripts spawn killpoint helpers.
+# - `signal` uses POSIX signals (SIGTERM, SIGKILL) — Linux required.
+# - `tempfile` appears only in audit scripts and tests, not in exec/ or store/.
+# - No network modules anywhere: no socket, urllib, http, ssl, requests.
+
+[test_runner]
+# Documented: python3 -m unittest discover -s tests -v  (stdlib unittest)
+# Historical: pytest 9.1.1 was used at least once (per __pycache__ names) but
+# is NOT imported by any source file and is NOT a runtime dependency.
