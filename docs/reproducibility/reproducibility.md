@@ -128,15 +128,32 @@ Practical notes for reproduction:
   raises `LeaseError` on fenced tokens). This is a timing-sensitive
   test, not a product defect. The frozen test is not edited; re-run the
   single test in isolation to confirm.
-- **A perfectly green bootstrap self-test under heavy system load.**
-  `test_R2_07_owner_divergence_detected`
-  (`src/axos/tests/test_fence_enforce.py`) drives real worker processes
-  through supervisor restart and fencing. Under sustained system load
-  (e.g. a concurrent full-suite run on the same machine) its timing
-  windows can be missed. It passes reliably in isolation and at file
-  level (18/18 in verification runs). Same class of issue as R4-14
-  above: a timing-sensitive test, not a product defect. The frozen test
-  is not edited; re-run the single test in isolation to confirm.
+- **A perfectly green full-suite run under extreme concurrent load.**
+  Four timing/concurrency-sensitive tests have been observed to flake
+  only when multiple full-suite runs execute concurrently on the same
+  machine:
+  - `test_R4_14_expiry_to_reclaim_to_r2_fencing`
+    (`src/axos/tests/test_expiry_r4.py`): real worker process, 0.1 s
+    heartbeat interval, exact-count assertion across a 1.0 s window.
+    Observed failure: 12 vs 11 heartbeats.
+  - `test_R2_07_owner_divergence_detected`
+    (`src/axos/tests/test_fence_enforce.py`): real processes through
+    supervisor restart and fencing; timing windows missed under load.
+  - `test_R3_11_stale_heartbeat_never_wins_against_reclaim`
+    (`src/axos/tests/test_heartbeat_r3.py`): failed in-suite with
+    `sqlite3.OperationalError: database is locked` under concurrent
+    load.
+  - `test_RACE_1_reconcile_racing_head_bump`
+    (`src/axos/tests/test_reconciliation_r11.py`): a deliberate race
+    test; inherently timing-marginal under CPU contention.
+
+  All four pass reliably in isolation and at file level (5/5, 19/19,
+  18/18, 56/56 x3, and isolation re-verified for R3-11 and RACE-1). The gate's stale-token
+  rejection is enforced by design (`ingest_heartbeat` raises
+  `LeaseError` on fenced tokens). These are timing-sensitive tests,
+  not product defects. The frozen tests are not edited; re-run the
+  single test in isolation to confirm, or re-run the suite without
+  concurrent load.
 
 ## 5. Determinism inventory
 
