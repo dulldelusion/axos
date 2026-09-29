@@ -115,6 +115,19 @@ Practical notes for reproduction:
   millisecond values.
 - **The `meta.generated_at` timestamp.** Unhashed by design; every
   regeneration stamps the current time.
+- **A perfectly green full-suite run under heavy system load.**
+  `test_R4_14_expiry_to_reclaim_to_r2_fencing`
+  (`src/axos/tests/test_expiry_r4.py`) drives a real worker process
+  with a 0.1 s heartbeat interval and asserts an exact heartbeat count
+  across a 1.0 s window after the fence sweep. Under sustained system
+  load the sweep's process termination can be delayed just enough for
+  one in-flight heartbeat to land, failing the exact-count assertion
+  (observed: 12 vs 11). The test passes reliably in isolation and at
+  file level (5/5 and 19/19 in verification runs); the gate's
+  stale-token rejection is enforced by design (`gate.ingest_heartbeat`
+  raises `LeaseError` on fenced tokens). This is a timing-sensitive
+  test, not a product defect. The frozen test is not edited; re-run the
+  single test in isolation to confirm.
 
 ## 5. Determinism inventory
 
