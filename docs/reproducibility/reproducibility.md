@@ -128,6 +128,15 @@ Practical notes for reproduction:
   raises `LeaseError` on fenced tokens). This is a timing-sensitive
   test, not a product defect. The frozen test is not edited; re-run the
   single test in isolation to confirm.
+- **A perfectly green bootstrap self-test under heavy system load.**
+  `test_R2_07_owner_divergence_detected`
+  (`src/axos/tests/test_fence_enforce.py`) drives real worker processes
+  through supervisor restart and fencing. Under sustained system load
+  (e.g. a concurrent full-suite run on the same machine) its timing
+  windows can be missed. It passes reliably in isolation and at file
+  level (18/18 in verification runs). Same class of issue as R4-14
+  above: a timing-sensitive test, not a product defect. The frozen test
+  is not edited; re-run the single test in isolation to confirm.
 
 ## 5. Determinism inventory
 
